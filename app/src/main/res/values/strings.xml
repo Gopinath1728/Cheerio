@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cheerio</string>
+    <string name="title_activity_home">Home_Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_community">Community</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_goal_setting">Goal Setting</string>
+    <string name="title_pain_management">Pain Management</string>
+    <string name="title_pain_tracker">Pain Tracker</string>
+    <string name="title_pain_knowledge">Pain Knowledge</string>
+    <string name="title_exercises">Exercises</string>
+    <string name="title_music">Music Therapy</string>
+    <string name="title_youtube">Youtube Player</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

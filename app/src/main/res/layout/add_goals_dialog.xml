@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:lottie_rawRes="@raw/goal_setting"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are your goals for today?"
+            android:fontFamily="@font/robot_med"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_marginHorizontal="5dp"/>
+
+        <EditText
+            android:id="@+id/edt_enter_goals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/hvd"
+            android:hint="Your goals here."
+            android:textSize="18sp"
+            android:layout_marginHorizontal="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When will you achieve this goal?"
+            android:fontFamily="@font/robot_med"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_marginHorizontal="5dp"/>
+
+        <TimePicker
+            android:id="@+id/goal_time"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:id="@+id/btn_finish_goal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="FINISH"
+            android:fontFamily="@font/robot_med"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

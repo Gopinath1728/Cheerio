@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEF0F4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/goal_item_container">
+
+            <CheckBox
+                android:id="@+id/goal_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/txt_goal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My goal"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/hvd"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target: "
+                android:textColor="@color/text_grey"
+                android:textSize="13sp"
+                android:fontFamily="@font/hvd"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/txt_goal_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21:35"
+                android:textColor="@color/text_grey"
+                android:textSize="13sp"
+                android:fontFamily="@font/hvd"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

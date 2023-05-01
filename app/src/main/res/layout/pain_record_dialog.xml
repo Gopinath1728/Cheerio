@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/add_pain_data" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:background="@drawable/borderline">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Where do you feel the pain?"
+                android:textColor="@color/light_black"
+                android:textSize="18sp"
+                android:fontFamily="@font/hvd"
+                android:layout_marginStart="5dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pain_radio_group">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Head"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/hvd"
+                    android:textColor="@color/light_black"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Neck"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/hvd"
+                    android:textColor="@color/light_black"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shoulder"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/hvd"
+                    android:textColor="@color/light_black"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lower Back"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/hvd"
+                    android:textColor="@color/light_black"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hip / Groin"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/hvd"
+                    android:textColor="@color/light_black"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Knee"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/hvd"
+                    android:textColor="@color/light_black"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ankle / Foot"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/hvd"
+                    android:textColor="@color/light_black"/>
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/borderline"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/hvd"
+                android:text="How intense is the pain?"
+                android:textColor="@color/light_black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/hvd"
+                android:text="On a scale of 0 (No Pain) to 10 (Extreme Pain)"
+                android:textColor="@color/light_black"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/edt_pain_intensity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/light_black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:background="@drawable/borderline">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How long did the pain last for?"
+                android:textColor="@color/light_black"
+                android:textSize="18sp"
+                android:fontFamily="@font/hvd"
+                android:layout_marginStart="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter the value in hours. i.e., 0 - 24"
+                android:textColor="@color/light_black"
+                android:textSize="12sp"
+                android:fontFamily="@font/hvd"
+                android:textStyle="italic"
+                android:layout_marginStart="5dp"/>
+
+            <EditText
+                android:id="@+id/pain_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:textColor="@color/light_black"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_cancel_pain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANCEL"
+                android:layout_marginStart="50dp"
+                android:fontFamily="@font/hvd"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentStart="true"/>
+
+            <Button
+                android:id="@+id/btn_submit_pain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:fontFamily="@font/hvd"
+                android:layout_marginEnd="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

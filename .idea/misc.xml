@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/borderline.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/bottom_curve_50.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/btn_15dp.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/btn_20dp.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/colors_of_sky_grad.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/diagonal_curve.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/dialog_shape.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/fade_red.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/green_grad.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/prof_ring.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/purple_grad.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/quote_box.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/rect_back.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/round.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/selected_tab.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/sky_grad.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/tab_background.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/tab_indicator.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/tab_shape.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/tab_text_color_selector.xml" value="0.2945" />
+        <entry key="app/src/main/res/drawable/top_curve.xml" value="0.2945" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/activity_register_page.xml" value="0.3310048200082088" />
+        <entry key="app/src/main/res/layout/activity_youtube.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/add_goals_dialog.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/all_goal_item.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/custom_marker_view.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/custom_tab.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/dashboard_cards.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/data_items.xml" value="0.3270776499872622" />
+        <entry key="app/src/main/res/layout/exercise_data_item.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/exercise_item.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/forgot_password_bottom.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_active_goal.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_all_goal.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_exercise.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_exercise_data.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_goal_setting.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_music_therapy.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_my_profile.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_pain_education.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_pain_knowledge.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_pain_management.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_pain_tracker.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_youtube.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/fragment_youtube_player.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/goal_item.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/music_data_items.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/pain_record_dialog.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/layout/profile_update_dialog.xml" value="0.35190217391304346" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.4036458333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

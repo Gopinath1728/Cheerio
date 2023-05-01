@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "579119213062",
+    "project_id": "cheerio-92143",
+    "storage_bucket": "cheerio-92143.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579119213062:android:2cab4595a96c4f39b8f187",
+        "android_client_info": {
+          "package_name": "com.example.cheerio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579119213062-17bp5p78an8k59b6npa9o4mio9v6so0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cheerio",
+            "certificate_hash": "2770986104a11ee53f41d0cfcdb0c21f4d53c10a"
+          }
+        },
+        {
+          "client_id": "579119213062-3qsr5u5hrklpamfgaefo44i93k81om70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFHaS-_FVKXexv76QDpY43a5NXODMXjs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579119213062-3qsr5u5hrklpamfgaefo44i93k81om70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

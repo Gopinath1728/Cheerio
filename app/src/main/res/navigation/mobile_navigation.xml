@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_community"
+        android:name="com.example.cheerio.ui.community.CommunityFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_community" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.cheerio.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.cheerio.ui.profile.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_goal_setting"
+        android:name="com.example.cheerio.ui.dashboard.goal_setting.GoalSettingFragment"
+        android:label="@string/title_goal_setting"
+        tools:layout="@layout/fragment_goal_setting" />
+
+    <fragment
+        android:id="@+id/navigation_pain_management"
+        android:name="com.example.cheerio.ui.dashboard.pain_management.PainManagementFragment"
+        android:label="@string/title_pain_management"
+        tools:layout="@layout/fragment_pain_management" />
+
+    <fragment
+        android:id="@+id/navigation_pain_tracker"
+        android:name="com.example.cheerio.ui.dashboard.pain_tracker.PainTrackerFragment"
+        android:label="@string/title_pain_tracker"
+        tools:layout="@layout/fragment_pain_tracker" />
+
+    <fragment
+        android:id="@+id/navigation_pain_knowledge"
+        android:name="com.example.cheerio.ui.dashboard.pain_management.pain_knowledge.PainKnowledgeFragment"
+        android:label="@string/title_pain_knowledge"
+        tools:layout="@layout/fragment_pain_knowledge" />
+
+    <fragment
+        android:id="@+id/navigation_exercise"
+        android:name="com.example.cheerio.ui.dashboard.pain_management.exercises.ExerciseFragment"
+        android:label="@string/title_exercises"
+        tools:layout="@layout/fragment_exercise" />
+
+    <fragment
+        android:id="@+id/navigation_exercise_data"
+        android:name="com.example.cheerio.ui.dashboard.pain_management.exercises.exerciseData.ExerciseDataFragment"
+        android:label="@string/title_exercises"
+        tools:layout="@layout/fragment_exercise" />
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="com.example.cheerio.ui.dashboard.pain_management.music_therapy.MusicTherapyFragment"
+        android:label="@string/title_music"
+        tools:layout="@layout/fragment_music_therapy" />
+
+    <fragment
+        android:id="@+id/navigation_youtube_fragment"
+        android:name="com.example.cheerio.ui.dashboard.YoutubeFragment"
+        android:label="@string/title_youtube"
+        tools:layout="@layout/fragment_youtube" />
+
+    <fragment
+        android:id="@+id/navigation_my_profile"
+        android:name="com.example.cheerio.ui.profile.my_profile.MyProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_my_profile" />
+
+</navigation>
