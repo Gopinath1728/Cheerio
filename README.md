@@ -38,3 +38,4 @@ To install and run Cheerio on your android device, you can download the source c
 If you have any questions or suggestions, please feel free to contact me through GitHub. Thank you for using Cheerio - Chronic Pain Management Application.
 
 ## Application Walkthrough
+https://drive.google.com/file/d/1CzMJtZ646MfrOCSD8idmP2qSbDaRQpoa/view?usp=share_link
